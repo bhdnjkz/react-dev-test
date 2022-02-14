@@ -9,8 +9,15 @@ export default class App extends Component {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello, friend! This is a front page component for a future application! r
+          Hello, friend! This is a front page component for a future application!
         </p>
+        <button 
+          className="button"
+          type="button"
+          onClick={() => {console.log('clicked')}}
+          >
+            Click me!
+          </button>
       </header>
     </div>
   );
